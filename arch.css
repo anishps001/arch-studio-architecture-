@@ -1,0 +1,568 @@
+*{
+    text-decoration:none;
+    
+}
+body{
+    background-color:  rgb(245, 241, 241);
+}
+
+.nav{
+    background-color: rgb(245, 241, 241);
+    height:500px;
+    margin: 0;
+    
+    
+}
+.nav ul{
+    list-style: none;
+    text-align: center;
+    padding:10px
+    
+}
+.nav li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+.nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:right;
+    color: black;
+    font-size:15px;
+    padding: 20px;
+
+}
+.nav a:hover{
+    color:white;
+    background:  rgb(52, 92, 76);
+    background-size: 20px;
+}
+table{
+    padding-left:60px;
+    position: relative;
+    top:-30px;
+}
+.nav tr{
+    background: white;
+    
+}
+.nav td{
+    padding: opx;
+    width: 600px;
+    height: 500px;
+    background-color: rgb(52, 92, 76);
+    font-size:35px;
+    
+   
+}
+
+
+
+.imgs{
+    background-image: url(images/home.jpeg);
+    width: 500px;
+    height: 500px;
+}
+
+
+.txt1{
+    color:black;
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+.nav .fbtn{
+    background-color:black;
+    color: white;
+    height:50px ;
+    width:100px;
+    position: relative;
+    left:0px; 
+    bottom: 40px;   
+}
+
+
+.fbtn:hover{
+    background-color: white;
+    color: black;
+    font-size:15px;
+}
+
+
+span{
+    font-size: 30px;
+
+
+
+}    
+.con1{
+    display: flex;
+    background:rgb(144, 182, 147);
+    flex-flow: wrap;
+    border:1;
+    height:300px;
+    
+}
+.con1 .box{
+    height:170px;
+    width: 300px;
+    background:rgb(181, 230, 205);
+    margin: 20px;
+    box-sizing: border-box;
+    position:relative;
+    bottom:30px;
+    left: 160px;
+    align-items: center;
+    text-align: center;
+    line-height:200px;
+    border-radius: 10px;
+    
+ 
+}
+.box:hover{
+    background-color: rgb(52, 92, 76);
+    color: white;
+    
+    
+}
+.con1 img{
+    width: 100px;
+    height: 100px;
+    padding-top:25px;
+}
+
+.nav1{
+    background-color:black;
+    height: 100px;
+    text-decoration: none;
+}
+.con1 .box h3{
+    position:relative;
+    bottom:200px;
+}
+.con2{
+    background: rgb(52, 92, 76);
+    height:130px;
+    width: 1100px;
+    position: relative;
+    left:100px;
+    border-radius: 30px;
+    bottom:90px;
+}
+
+.con2 .mtxt{
+    align-items: center;
+    align-content: center;
+    position: relative;
+    left: 350px;
+    top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.con2 .m1txt{
+    position: relative;
+    bottom: 30px;
+    
+}
+.tbtn{
+    background-color: black;
+    color: white;
+    width:130px;
+    height: 45px;
+    position: relative;
+    left: 800px;
+    bottom: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    border-radius:10px;
+}
+
+.tbtn:hover{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+
+}
+.con3{
+    background-color: rgb(245, 241, 241);
+    height: 200px;
+    position: relative;
+    bottom:85px;
+}
+.con3 a{
+    color:  rgb(52, 92, 76);
+}
+
+.con3 .lst {
+    display: inline-block;
+    padding:45px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left:250px;
+    bottom: 50px;
+    font-size:15px;
+    color:  rgb(52, 92, 76);
+    
+}
+.con3 a:hover{
+    color:black;
+}
+.con3 input[type=text]{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(146, 218, 182);
+    border-style: none;
+}
+.con3 .btnsb{
+    width:100px;
+    height: 40px;
+    background-color:rgb(52, 92, 76);
+    color: white;
+    border-style: none;
+
+}
+.con3 .btnsb:hover{
+    background-color: black;
+}
+.con3 img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 150px;
+}
+
+.log1{
+    width: 50%;
+    height: 500px;
+    background-color: green;
+}
+
+.log2{
+    width: 50%;
+    height: 500px;
+    background-color:rgb(52, 92, 76);
+    position: relative;
+    left:50%;
+    bottom:100%;
+}
+
+.log1 img{
+    width: 700px;
+    height: 500px;
+}
+
+.log2 label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.log2 input[type=text]{
+    width: 300px;
+    height:40px;
+    margin: 20px;
+    border-radius:20px;
+    border: none;
+    font-size:13px;
+    padding:4px;
+    background-color: rgb(223, 229, 235);
+    
+    
+    
+}
+.log2 form{
+    position: relative;
+    top: 10px;
+    left: 100px;
+    padding:30px;
+}
+.logbtn{
+    width:300px;
+    height:45px;
+    border-radius: 20px;
+    position: relative;
+    left: 120px;
+    top: 15px;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:17px;
+    color:black;
+
+}
+.logbtn:hover{
+    background-color: rgb(42, 180, 95);
+}
+.log2 .forpass{
+    color: white;
+
+}
+.log2 .forpass a{
+    position: relative;
+    left:130px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.log2 .cracc a{
+    position: relative;
+    top: 1px;
+    color: white;
+    
+}
+.log2 .cracc{
+    color: white;
+    position: relative;
+    top: 28px;
+    left: 50px;
+
+}
+.log2 a:hover{
+    color: black;
+}
+.log2 form h1{
+    position: relative;
+    bottom:10px;
+    color:white;
+}
+
+.foot{
+    background-color: rgb(245, 241, 241);
+    height: 100px;
+    position: relative;
+    bottom:500px;
+    padding-bottom: -10px;
+}
+.foot a{
+    color:  rgb(52, 92, 76);
+}
+
+.foot .lst {
+    display: inline-block;
+    padding:45px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left:250px;
+    bottom:100px;
+    font-size:15px;
+    color:  rgb(52, 92, 76);
+    
+}
+.foot a:hover{
+    color:black;
+}
+.foot input[type=text]{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(146, 218, 182);
+    border-style: none;
+}
+.foot .btnsb{
+    width:100px;
+    height: 40px;
+    background-color:rgb(52, 92, 76);
+    color: white;
+    border-style: none;
+
+}
+.foot .btnsb:hover{
+    background-color: black;
+}
+.foot img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 90px;
+}
+
+
+
+    
+/* about */
+
+.navabt{
+    background-color: rgb(245, 241, 241);
+    height:70px;
+    margin: 0;
+    
+    
+}
+.navabt ul{
+    list-style: none;
+    text-align: center;
+    padding:10px
+    
+}
+.navabt li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+.navabt a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:right;
+    color: black;
+    font-size:15px;
+    padding: 20px;
+
+}
+.navabt a:hover{
+    color:white;
+    background:  rgb(52, 92, 76);
+    background-size: 20px;
+}
+.abtcon{
+    background-image: url("/images/beautiful-home-1680789_1920.jpg");
+    
+}
+
+.abt{
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    
+}
+
+.abtimg{
+    height:480px;
+    width:500px ;
+    position: absolute;
+    left:780px;
+    bottom:110px;
+}
+
+
+
+.abt h3{
+    font-style: normal;
+    font-size:30px;
+    text-align:center;
+    padding-top:120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.abtbtn{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    bottom:35px;
+    color: white;
+    left: 260px;
+}
+.abtbtn:hover{
+    background-color:white;
+    color: black;
+}
+
+/* contact */
+
+
+
+.conlog2{
+    width: 50%;
+    height: 500px;
+    background-color:rgb(239, 245, 243);
+    position: relative;
+    left:50%;
+    bottom:100%;
+}
+
+.conlog1 img{
+    width: 700px;
+    height: 500px;
+}
+
+
+.conlog2 label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 12, 12);
+    font-size:15px;
+    position: absolute;
+    left:1px;
+}
+.conlog2 input[type=text]{
+    width: 400px;
+    height:40px;
+    margin: 20px;
+    border: none;
+    font-size:13px;
+    padding:4px;
+    background-color: rgb(252, 252, 252);
+    
+    
+    
+}
+.conlog2 form{
+    position: relative;
+    top:-20px;
+    left: 100px;
+    padding:30px;
+    
+}
+.conlog2 form textarea{
+    position: absolute;
+    left: 50px;
+    bottom:5px;
+    width: 400px;
+    height: 100px;
+    background-color: rgb(252, 252, 252);
+}
+.conlogbtn{
+    width:400px;
+    height:45px;
+    position: relative;
+    left: 20px;
+    top:100px;
+    background-color: rgb(5, 5, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:17px;
+    color:rgb(255, 253, 253);
+
+}
+.conlogbtn:hover{
+    background-color: rgb(247, 252, 249);
+    color: black;
+}
+
+.conlog2 a:hover{
+    color: black;
+}
+.conlog2 form h1{
+    position: relative;
+    bottom:10px;
+    color: rgb(12, 12, 12);
+}
+/* project */
+
+.procon .pro1{
+    width: 280px;   
+    display:inline-block;
+    height:500px;
+    margin:1px;
+    position: relative;
+    padding-left:5px;
+    top: 20px;
+    
+}
+.procon img{
+    width: 280px;
+    height: 500px;
+    
+}
+
+.procon .pro1 img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.procon .pro1:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
